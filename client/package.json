@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001",
-  "homepage": "http://Nickjohn18.github.io/Book-search-enginee",
   "dependencies": {
     "-": "^0.0.1",
     "@apollo/client": "^3.4.12",
@@ -16,6 +15,7 @@
     "graphql": "^15.5.3",
     "graphql-tag": "^2.12.5",
     "jwt-decode": "^2.2.0",
+    "node": "^16.9.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
@@ -24,8 +24,6 @@
     "save-dev": "^0.0.1-security"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
